@@ -1,3 +1,5 @@
+<!--Linru Wang-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,69 +45,60 @@
 			</ul>
 		</div> 
 	</div>
-		<div class="header">
-			<!--Making the head in the center of page-->
-			<div class="row text-center">  
+	
+		<!--Code to create the columns -->
+		<div class="main">			
+			<div class="row1 text-center">  
 				<div class="col-sm-12">
 					<h1>Our team</h1>
 				</div>
 			</div>
 			
-		</div>
-		<!--Code to create the columns -->
-		<div class="main">	
 			<div class="row">
-			<div class="col-sm-4">
-				<img class="profileImage" src="images/Damien.jpg" alt="Profile"/>
-				<h2>Damien Ho</h2>
-				<p>Director of Ireland's National Biodiversity Data Center</p>
+				<div class="col-sm-4">
+					<img class="profileImage" src="images/Damien.jpg" alt="Profile"/>
+					<h2>Damien Ho</h2>
+					<p>Director of Ireland's National Biodiversity Data Center</p>
+				</div>
+				<div class="col-sm-4">
+					<img class="profileImage" src="images/Bogdan.jpg" alt="Profile"/>
+					<h2>Bogdan Postolachi</h2>
+					<p>Administrator, UN Development Programme</p>
+				</div>
+				<div class="col-sm-4">
+					<img class="profileImage" src="images/Linru.jpg" alt="Profile"/>
+					<h2>Linru Wang</h2>
+					<p>CEO of the Beijing Future Innovation Center </p>
+				</div>
 			</div>
-			<div class="col-sm-4">
-				<img class="profileImage" src="images/Bogdan.jpg" alt="Profile"/>
-				<h2>Bogdan Postolachi</h2>
-				<p>Administrator, UN Development Programme</p>
-			</div>
-			<div class="col-sm-4">
-				<img class="profileImage" src="images/Linru.jpg" alt="Profile"/>
-				<h2>Linru Wang</h2>
-				<p>CEO of the Beijing Future Innovation Center </p>
-			</div>
-			</div>
+			
 		</div>
-	    <!--Going to have button for each page which connected to tickets page and make them in the center of page-->
+	    
+
+
+	
+	
+	
+	<div class="footer">
 		<div class="row text-center">
-			<div class="col-sm-12">
+			<div class="col-sm-6">
+				<!--Going to have button for each page which connected to tickets page and make them in the center of page-->
 				<a href = "page2.html" id="tickets"><button type="button" onclick="document.getElementById('tickets').innerHTML = Date()">Get your tickets</button></a>
 			</div>
-		</div>
-	<br> 
-
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-	</script>
-	
-	<br><br><br>
-	
-	<footer>
-	<p>Author: Global Action</p>
-	<p><a href="index.html">globalaction@business.ie</a></p>
-	<!--It is a Web history API came from W3School-->
-	<div class="row text-center">
-		<div class="col-sm-12">
+			<div class="col-sm-6">
 			<button onclick="myFunction()">Go Back</button>
+			</div>
+		</div>
+	</div>
 			<!--use Javascript window history back-->
 			<script> 
 				function myFunction() {
 				window.history.back();
 				}
 			</script>
-		</div>
-	</div>
-	</footer>
-	<br><br><br>
-	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+	</script>
 
 </body>
 
 </html>
-
