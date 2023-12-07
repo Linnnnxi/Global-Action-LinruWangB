@@ -1,15 +1,28 @@
 /*style.css*/
 
+/*Linru Wang All CSS done by me*/
 
-h4{
-	margin:120px;
+/*Going to do border and use margin to create space around elements*/
+h3{
+	margin:240px;
 	border: 1px solid #4CAF50;
 	background-color: lightgreen;
 }
 video{
 	border: 1px solid #4CAF50;
 }
-h6{
-	margin:150px;
+h4{
+	margin:500px;
 	border: 1px solid #4CAF50;
+	background-color: lightgreen;
+	
 }
+h5{
+	margin:240px;
+	border: 1px solid #4CAF50;
+	background-color: lightgreen;
+}
+
+
+
+/*Linru Wang All CSS done by me*/
