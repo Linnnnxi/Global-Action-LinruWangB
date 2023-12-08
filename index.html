@@ -10,7 +10,7 @@
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<meta name="author" content="Linru Wang">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="CSS/style.css">
 	<!--Connect to google fonts-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +48,7 @@
 			</ul>
 		</div> 
 	</div>
-	
+		<!--Start to do main information of Home page-->
 		<div class="main">
 			<div class="row text-center">	
 				<div class="col-sm-12">
@@ -56,18 +56,18 @@
 				</div>
 			</div>
 			<br><br><br>
-			<!--Introduction of our website-->
-			<h4>We primarily convene meetings to elucidate the subject of<b> Global Sustainability Initiatives </b>to professionals across diverse sectors. Our sessions leverage the environmental theme to furnish both reference and inspiration to the broader public.</h4>	
+			<!--Use h3,4,5 to avoid have same elements than other team member that easy to conected to CSS-->
+			<h3>We primarily convene meetings to elucidate the subject of<b> Global Sustainability Initiatives </b>to professionals across diverse sectors. Our sessions leverage the environmental theme to furnish both reference and inspiration to the broader public.</h3>	
 			<br><br>
-			<div img style="text-align:center"> 
+			<div style="text-align:center"> 
 				<img class="pImage" src="images/p.jpg" alt="Pollution"/>
 					<p><em>Screenshot courtesy of <a href="https://waqi.info/" target="_blank">Pollution Index - AQI</a> --- 15:45 6/12/2023</em></p>
 			</div>
 			
-			<!--Pasted from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_text-align for using HTML text-align-->
+			<!--Pasted from W3School for using JavaScript-->
 			<br><br><br>
 			<div style="text-align:center"> 
-			<h5>Global Pulse, Connected with One Heart</h5>
+			<h4>Global Pulse, Connected with One Heart</h4>
 			
 			<!--Studied from https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop-->
 			<button onclick="playPause()">Play/Pause</button> 
@@ -91,7 +91,7 @@
 			</div>		
 			<br><br><br><br>
 			<div style="text-align:center"> 
-			<h5>Greenpeace Day 15th September</h5>
+			<h4>Greenpeace Day 15th September</h4>
 			<button onclick="playPause2()">Play/Pause</button> 
 			<button onclick="makeBig2()">Big</button>
 			<button onclick="makeSmall2()">Small</button>
@@ -105,7 +105,7 @@
 				Your browser does not support HTML video.
 			</video>
 			<!--Google searched about special global day-->
-			<h6><b>Greenpeace Day</b> commemorates the organization's establishment on September 15, 1971. The milestone occurred as 17 activists sailed aboard the Phyllis Cormack, striving to prevent scheduled nuclear testing off the coast of Alaska.</h6>
+			<h5><b>Greenpeace Day</b> commemorates the organization's establishment on September 15, 1971. The milestone occurred as 17 activists sailed aboard the Phyllis Cormack, striving to prevent scheduled nuclear testing off the coast of Alaska.</h5>
 			<p><em>Information courtesy of <a href="https://nationaltoday.com/greenpeace-day/#:~:text=Greenpeace%20Day%20marks%20the%20day%20the%20organization%20was,to%20take%20place%20off%20the%20shores%20of%20Alaska." target="_blank">National Today</em></a>
 			</p>
 			<!--The "courtesy of" language idea from other webpages-->
@@ -154,8 +154,7 @@
 				function makeNormal() { 
 					myVideo.width = 420; 
 				} 
-			</script> 	
-		
+			</script> 			
 			<script> 
 				var myV2 = document.getElementById("v2"); 
 
